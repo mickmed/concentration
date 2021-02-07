@@ -1,18 +1,51 @@
 .App {
-	text-align: center;
+  text-align: center;
 }
 .squares {
-	display: flex;
+  display: flex;
   flex-wrap: wrap;
-  justify-content:center;
-  margin:0 auto;
-	width: 400px;
-	height: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  background-image: url('https://images.unsplash.com/photo-1612534335151-1b6d8c588003?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
+  
 }
 .square {
-	border: 1px solid white;
-	background: red;
-	width: 100px;
+  border: 1px solid white;
+  background: red;
+  width: 100px;
   height: 100px;
-  box-sizing:border-box;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;  justify-content: center;
+}
+
+.show {
+  background: lightblue;
+  opacity:1;
+  animation: fade 1s 3s forwards;
+  background: rgb(231, 179, 231);
+}
+
+.background{
+  background:transparent;
+}
+
+@keyframes fade{
+  /* from{backround:purple}
+  to{background:red} */
+}
+
+
+.background-plate{
+  background:black;
+  color:white;
+  height:600px;
+  width:600px;
+  position:absolute;
+  top:0;
+  left: 0;
+  
 }
