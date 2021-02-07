@@ -83,7 +83,7 @@ const Board = () => {
               : prize}
           </div>
         ))}
-      {/* <div className="background-plate">1 + 1</div> */}
+      <div className="background-plate"></div>
     </div>
   );
 };
