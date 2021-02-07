@@ -75,7 +75,6 @@ const Board = () => {
               (show[0] === index || show[1] === index) && "show"
             } ${prize === "" && "background"}`}
           >
-            {/* {console.log(show, index)} */}
             {show.length < 3 && !show.includes(index)
               ? prize === ""
                 ? ""
